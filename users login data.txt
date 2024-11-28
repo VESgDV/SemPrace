@@ -1,0 +1,12 @@
+1. relaiz 
+email : tetst1@mail.com
+password: Z5a2g0l6qQ (FyhnjYtnG3) (6flzm6m6xT)
+
+1. admin 
+email : admin@gmail.com
+password: LIEba4B9sp
+
+3.TestUser2
+email : testuser@gmail.com
+password: MOCYMZhsI0
+

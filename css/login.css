@@ -1,0 +1,83 @@
+.login-container{
+    background-color: #ffff;
+    border-radius: 8%;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.login_inner{
+    text-align: center;    
+}
+
+.login_input{
+    width: 90%;
+}
+
+.login_label{
+    text-align: center;
+}
+
+.login_buttonS {
+    width: 90%;
+    margin-bottom: 7%;
+    background-color: #b0bec5;
+    outline: none;
+    transition: transform 0.3s ease-in-out; 
+    cursor: pointer;
+    position: relative;
+}
+
+.login_buttonS:hover {
+    transform: scale(1.05); 
+}
+
+.login_buttonS::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+    border-radius: inherit; 
+}
+
+
+.login_buttonS:hover::before {
+    border-color: #000; 
+}
+
+.login_buttonF {
+    position: relative; 
+    background-color: #4db6ac;
+    color: white;
+    width: 90%;
+    padding: 10px 20px;
+    outline: none;
+    transition: transform 0.3s ease-in-out; 
+    cursor: pointer; 
+}
+
+.login_buttonF:hover {
+    transform: scale(1.05); 
+}
+
+.login_buttonF::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+    border-radius: inherit; 
+}
+
+
+.login_buttonF:hover::before {
+    border-color: #000; 
+}
+

@@ -1,0 +1,356 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    flex-direction: column;
+}
+
+h1, h2, h3 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.form-container, .profile-container, .resume-container, .messages-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 400px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.table-container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    width: 70%;
+    margin: 20px auto;
+}
+
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 16px;
+}
+
+textarea {
+    resize: vertical;
+    height: 100px;
+}
+
+
+button {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.primary-btn {
+    background-color: #4db6ac;
+    color: white;
+    transition: background-color 0.3s ease;
+    
+}
+
+.primary-btn:hover {
+    background-color: #319a88;
+}
+
+.secondary-btn {
+    background-color: #b0bec5;
+    color: black;
+    margin-top: 10px;
+    
+}
+
+.secondary-btn:hover {
+    background-color: #90a4ae;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #ddd;
+    text-align: left;
+}
+
+table th {
+    background-color: #4db6ac;
+    color: white;
+}
+
+
+.navbar {
+    background-color: #4db6ac;
+    padding: 15px;
+    text-align: center;
+    align-items: center;
+    width: 100%;
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    z-index: 1000; 
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; 
+    flex-grow: 1;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 10px 15px;
+    background-color: #4db6ac;
+    border-radius: 5px;
+}
+
+.navbar ul li a:hover {
+    text-decoration: underline;
+    background-color: #319a88;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    margin-left: auto; 
+    gap: 10px; 
+}
+
+body {
+    margin-top: 60px; 
+}
+
+
+.profile-container {
+    width: 400px;
+    margin: 20px auto;
+}
+
+.profile-container h2 {
+    margin-bottom: 30px;
+}
+
+.profile-container p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.resume-container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.resume-container h2 {
+    margin-bottom: 30px;
+}
+
+.resume-container p {
+    text-align: left;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+
+.messages-container {
+    width: 600px;
+    margin: 20px auto;
+}
+
+.messages-container h2 {
+    margin-bottom: 30px;
+}
+
+.messages-container table {
+    margin-bottom: 20px;
+}
+
+.messages-container textarea {
+    height: 150px;
+}
+
+
+.confirmation-message {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #e0f2f1;
+    border-left: 5px solid #4db6ac;
+}
+
+.error-message {
+    padding: 10px;
+    margin-bottom: 20px;
+    background-color: #ffccbc;
+    border-left: 5px solid #ff5722;
+}
+
+
+.centered-text {
+    text-align: center;
+}
+
+nav {
+    background-color: #4CAF50;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #45a049;
+}
+
+
+
+.user-info span {
+    margin-right: 10px;
+    color: white;
+    font-weight: bold;
+}
+
+.user-photo {
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+}
+
+.password-container {
+    position: relative;
+    width: 100%;
+}
+
+.toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    cursor: pointer;
+    background: none;
+    border: none;
+    z-index: 10;
+}
+
+.toggle-password:focus {
+    outline: none;
+}
+.toggle-password-btn {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.generate-password-btn {
+    margin-top: 10px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.generate-password-btn:hover {
+    background-color: #45a049;
+}
+
+
+.animated_button {
+    position: relative;
+    outline: none;
+    transition: transform 0.3s ease-in-out; 
+    cursor: pointer; 
+}
+
+.animated_button:hover {
+    transform: scale(1.05); 
+}
+
+
+.animated_button::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 1px solid transparent;
+    box-sizing: border-box;
+    transition: 0.2s ease-in-out;
+    border-radius: inherit; 
+}
+
+.animated_button:hover::before {
+    border-color: #000; 
+}

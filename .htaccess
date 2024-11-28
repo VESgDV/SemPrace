@@ -1,0 +1,23 @@
+RewriteEngine On
+
+
+RewriteRule ^login$ php/login.php [QSA,L]
+RewriteRule ^profil$ php/profil.php [QSA,L]
+RewriteRule ^resume$ php/resume.php [QSA,L]
+RewriteRule ^zpravy$ php/zpravy.php [QSA,L]
+RewriteRule ^admin_panel$ php/admin_panel.php [QSA,L]
+RewriteRule ^registrace$ php/registrace.php [QSA,L]
+RewriteRule ^logout$ php/logout.php [QSA,L]
+RewriteRule ^login_process$ back/login_process.php [QSA,L]
+RewriteRule ^send_message$ back/send_message.php [QSA,L]
+RewriteRule ^view_message$ php/view_message.php [QSA,L]
+RewriteRule ^update_profile$ back/update_profile.php [QSA,L]
+RewriteRule ^edit_user$ back/edit_user.php [QSA,L]
+RewriteRule ^change_password$ php/change_password.php [QSA,L]
+RewriteRule ^submit_password_change$ back/submit_password_change.php [QSA,L]
+RewriteRule ^submit_registration$ back/submit_registration.php [QSA,L]
+
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ php/index.php [QSA,L]
